@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MatListModule } from '@angular/material/list';
     ProjectsComponent,
     CvComponent,
     MeComponent,
-    MainNavComponent
+    MainNavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

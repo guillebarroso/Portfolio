@@ -132,6 +132,10 @@ img{
 
 /* NAV */
 
+.sobreMi p ,.infor_proyecto{
+    text-align: justify;    
+}
+
 
 nav ul{
     display: flex;
@@ -167,6 +171,8 @@ nav ul{
     .cuadroImagen{
         width: 50vw;
         height: 50vw;
+        min-width: 250px;
+        min-height: 250px;
     }
 }
   
@@ -188,11 +194,15 @@ nav ul{
     .contenido1, .contenido2, .contenido3, .titulo{
         width: 100%;
     }
+    #listas{
+        margin: 0;
+    }
+    
 }
 @media screen and (max-width: 500px) {
-    .datos{
+    /* .datos{
         align-items: normal;
-    }
+    } */
 }
 
 @media screen and (max-width: 450px) {
@@ -204,6 +214,16 @@ nav ul{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    #listas li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;      
+    }
+    #listas li i{
+        font-size: 1.5rem;
+        margin: 1rem;    
     }
 }
   

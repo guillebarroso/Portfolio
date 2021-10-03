@@ -6,6 +6,10 @@ section h2{
 section h2, section p{
     text-align: center;
 }
+
+section p{
+    margin: 1rem;
+}
 .projects{
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,25 @@
+footer {
+    margin-top: 2rem;
+    height:64px;
+    background-color: var(--colorPrimario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons i{
+    font-size: 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    color: var(--colorFondo);
+}
+
+.contact-icons i:hover{
+    transform: translateY(-5px);
+    color: rgb(197, 196, 196);
+}
