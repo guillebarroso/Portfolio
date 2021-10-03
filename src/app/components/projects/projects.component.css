@@ -1,0 +1,56 @@
+section h2{
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+section h2, section p{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    max-width: 450px;
+    /* background-color: white;     */
+    margin: 1.5rem;
+    border-bottom: var(--colorPrimario);
+    border-bottom-style: solid;
+}
+
+.project h3{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.project-tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project p{
+    text-align: justify;
+}
+
+.project-tools i{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.project-github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    bottom: 0px; */
+}
+
+.project-github i{
+    font-size: 2rem;
+    margin: 1rem;
+}
